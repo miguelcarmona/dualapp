@@ -19,6 +19,7 @@ import { TranslateService } from '@ngx-translate/core';
 /**
  * Topbar component
  */
+  
 export class TopbarComponent implements OnInit {
 
   element;
@@ -27,6 +28,9 @@ export class TopbarComponent implements OnInit {
   flagvalue: any;
   countryName: any;
   valueset;
+  user = {
+    firstName : 'sdf'
+  };
 
   constructor(@Inject(DOCUMENT) private document: any,
     private router: Router,

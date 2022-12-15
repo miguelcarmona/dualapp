@@ -2,11 +2,6 @@ import { MenuItem } from './menu.model';
 
 export const MENU: MenuItem[] = [
     {
-        id: 1,
-        label: 'MENUITEMS.MENU.TEXT',
-        isTitle: true
-    },
-    {
         id: 2,
         label: 'MENUITEMS.DASHBOARDS.TEXT',
         icon: 'uil-home-alt',
@@ -15,10 +10,6 @@ export const MENU: MenuItem[] = [
             text: '01', //'MENUITEMS.DASHBOARDS.BADGE',
         },
         link: '/dashboard',
-    },
-    {
-        id: 3,
-        isLayout: true
     },
     {
         id: 4,
