@@ -6,14 +6,14 @@ export const environment = {
   production: false,
   defaultauth: 'fackbackend',
   firebaseConfig: {
-    apiKey: '',
-    authDomain: '',
-    databaseURL: '',
-    projectId: '',
-    storageBucket: '',
-    messagingSenderId: '',
-    appId: '',
-    measurementId: ''
+    apiKey: "AIzaSyDjyLYygk7aIrAiiFwUJ0sk_7UEZ4mE2vs",
+    authDomain: "mc-dualapp.firebaseapp.com",
+    projectId: "mc-dualapp",
+    storageBucket: "mc-dualapp.appspot.com",
+    messagingSenderId: "177214388987",
+    appId: "1:177214388987:web:2ec02dd63cf0deffaf8e5e",
+    measurementId: "G-FZ66FX5FJP"
+    //databaseURL: '',
   }
 };
 
