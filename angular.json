@@ -20,7 +20,7 @@
             "allowedCommonJsDependencies": [
               "rxjs", "simplebar", "ng5-slider", "apexcharts", "ng2-charts", "chart.js", "core-js"
             ],
-            "outputPath": "public",
+            "outputPath": "dist/public",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
